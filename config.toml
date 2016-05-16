@@ -45,8 +45,8 @@ theme = "agency"
     [params.hero]
         # To change the background image of the hero, replace 'header-bg.jpg' in
         # the 'static/img' folder.
-        title = "Build your brand"
-        subtitle = "Move your audience!"
+        title = "Triads"
+        subtitle = "Group Coaching in 3's"
         buttonText = "Tell me more"
 
 
