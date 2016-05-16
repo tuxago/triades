@@ -1,3 +1,187 @@
 baseurl = "https://theothercommunication.com/triades"
-languageCode = "fr-fr"
-title = "Triades"
+languageCode = "en-us"
+title = "The Other Communication"
+theme = "agency"
+
+[params]
+
+    # You can use Markdown syntax for urls [text](//url.to/source) or
+    # most longer texts.
+    #
+    # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+    # for more icons. The icons are represented by their corresponding
+    # CSS class.
+
+    # To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+    name = "Shani Herrmann"
+    description = "Intercultural Content Strategy "
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+    email = "shani@theothercommunication.com"
+
+
+    # Navigation
+    [params.navigation]
+		brand = "Triades"
+        services = "Services"
+		about = "About"
+        portfolio = "Testimonials"
+        team = "About"
+        contact = "Contact"
+
+
+    # Hero section
+    [params.hero]
+        # To change the background image of the hero, replace 'header-bg.jpg' in
+        # the 'static/img' folder.
+        title = "Build your brand"
+        subtitle = "Move your audience!"
+        buttonText = "Tell me more"
+
+
+    # Services section
+    [params.services]
+        title = "Communicate Smarter and Better and Faster"
+        subtitle = "A deep understanding of who you are and who your audience is makes all the difference in the way you communicate. Adapt your words, design, and style to your  You'll move your audience. You'll move mountains.<br><br>Here's how:"
+		[[params.services.row]]
+            [[params.services.row.list]]
+                icon = " fa-comment"
+                title = "Branding Strategy"
+                description = "Uncover your values, your style and what makes you unique. Ditto for your audience. Then, we put the two together for a roadmap that will forever change the way you communicate. <br><br>Deliverable: A branding strategy document.<br><br><b>Intangible:</b> A sense of self that will have you communicating authentically and effectively."
+            [[params.services.row.list]]
+                icon = " fa-file-text-o "
+                title = "On-Brand Content Creation"
+                description = "Get content infused with your brand.<br></br>Hire talented professionals who get it - you, your brand, your audience, and the context - to produce your corporate identity documents, online presence, advertising, sales toolkit, events, and other communication products."
+
+            [[params.services.row.list]]
+                icon = "fa-commenting-o"
+                title = "Branding Quality Assurance"
+                description = "Review of your content for brand consistency. Is your content on brand?"
+          
+    # Portfolio section
+    [params.portfolio]
+        # All projects defined in their own files. You can find example projects
+        # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+        # at the root of this Hugo site.
+        # For more informtion take a look at the README.
+        title = "Testimonials"
+        subtitle = "From past clients, in their own words." 
+
+        [params.portfolio.modal]
+            client = "Client"
+            date = "Date"
+            category = "Category"
+            buttonText = "Close project"
+
+
+    # About section
+    [params.about]
+        title = "Why Shani?"
+        subtitle = ""
+        endpoint = "Your<br>Project"
+
+        # The events will be listed from the top to the bottom.
+        # All images are stored under 'static/img/about'.
+        # Replace them with your own.
+        [[params.about.events]]
+            img = "right brain left brain.jpg"
+            date = ""
+            title = "Analysis & Intuition"
+            description = "Right brain or left brain? Shani is both. Sensitive to nuances in design, language, and emotion. Logical and results-oriented. You get the best of both worlds."
+
+        [[params.about.events]]
+            img = "globe 200.jpg"
+            date = ""
+            title = "Extensive Cultural Experience"
+            description = "Shani has lived in North and South America, Europe and the Middle East, has travelled extensively and has worked with people from many different disciplines all over the world. She'll figure out your brand's culture - and the culture of the context you operate in - in no time."
+
+        [[params.about.events]]
+            img = "montessori cube 200.jpg"
+            date = ""
+            title = "A Co-Creative Approach"
+            description = "Shani's approach to working with clients has its roots in Montessori - Shani's family business. It's about working together to find solutions in a positive, relaxed environment where creativity flows."
+
+    # Team section
+    [params.team]
+        title = "About"
+        subtitle = ""
+        description = "Shani puts her cultural and linguistic experience at the service of brands, cultures unto themselves.<br><br>She has been dissecting different types of cultures and the languages that express them all her life:...national cultures (USA, France, Israel, Brazil, Venezuela)<p>...company cultures (in aviation, healthcare, and industry)<br><br>She works in English, French, Spanish, and Portuguese."
+       # All team member's pictures are stored under 'static/img/team'.
+        # Replace them with your own too.
+
+        [[params.team.members]]
+            img = "shani-portrait.jpg"
+            name = "Shani Herrmann"
+            position = "Intercultural Brand Strategist"
+            social = [
+                ["fa-twitter", "#"],
+                ["fa-facebook", "#"],
+                ["fa-linkedin", "https://fr.linkedin.com/in/shaniherrmann"]
+            ]
+
+    # Client section
+    # All the clients' logos are stored under 'static/img/logos'.
+    # Replace them with your clients's logos.
+    [[params.clients]]
+        logo = ".jpg"
+        link = "#"
+
+    # Contact section
+    [params.contact]
+        title = "Let's Talk"
+        subtitle =  "Give Shani a call at [+33 6 41 88 23 40](tel:+33641882340) or write her a note here.<br></br> She'll get back to you within 1 business day."
+        buttonText = "Send"
+
+        # 'warning' defines error messages for invalid inputs
+        [params.contact.form.name]
+            text = "Your Name *"
+            warning = "Please enter your name."
+
+        [params.contact.form.email]
+            text = "Your Email *"
+            warning = "Please enter your email address."
+
+        [params.contact.form.phone]
+            text = "Your Phone *"
+            warning = "Please enter your phone number."
+
+        [params.contact.form.message]
+            text = "Your Message *"
+            warning = "Please enter a message."
+
+
+    # Footer section
+    [params.footer]
+        copyright = "Published under the Apache License 2.0."
+
+        [[params.footer.social]]
+            icon = "fa-twitter"
+            link = "#"
+
+        [[params.footer.social]]
+            icon = "fa-facebook"
+            link = "#"
+
+        [[params.footer.social]]
+            icon = "fa-linkedin"
+            link = "https://fr.linkedin.com/in/shaniherrmann"
+
+        [[params.footer.quicklinks]]
+            text = "Privacy Policy"
+            link = "#"
+
+        [[params.footer.quicklinks]]
+            text = "Terms of Use"
+            link = "#"
+

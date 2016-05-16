@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .text-muted {
@@ -54,6 +54,7 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    color: #39163B;
 }
 
 .img-centered {
@@ -164,6 +165,10 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fed136;
 }
 
+.btn-intro {
+    color: #39163b;
+}
+
 .btn-xl .badge {
     color: #fed136;
     background-color: #fff;
@@ -175,7 +180,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Raleway","Helvetica Neue",Helvetica,Arial,cursive;
     color: #fed136;
 }
 
@@ -209,7 +214,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #fed136;
 }
 
 .navbar-default .nav li a:hover,
@@ -264,27 +269,33 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
+}
+
+.logo-toc {
+    text-align: center;
+    color: #fff;
+    height: 800px;
+    width: 600px;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(/img/logo-square-web.png);
     background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 600px 800px;
+    margin-bottom: 200px;
 }
 
 header .intro-text {
+	text-align: left;
     padding-top: 100px;
     padding-bottom: 50px;
 }
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
-    font-style: italic;
     line-height: 22px;
+    color: #CCCCCC;
 }
 
 header .intro-text .intro-heading {
@@ -304,9 +315,8 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
-        font-style: italic;
         line-height: 40px;
     }
 
@@ -314,9 +324,10 @@ header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
+        font-size: 50px;
         font-weight: 700;
         line-height: 75px;
+        color: #39163B;
     }
 }
 
@@ -333,9 +344,8 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
-    font-style: italic;
     font-weight: 400;
 }
 
@@ -412,7 +422,7 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
 }
@@ -790,7 +800,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
 }
