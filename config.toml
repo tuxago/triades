@@ -1,6 +1,6 @@
 baseurl = "https://theothercommunication.com/triades/"
 languageCode = "en-us"
-title = "The Other Communication"
+title = "Triades"
 theme = "agency"
 
 [params]
