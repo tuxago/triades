@@ -1,0 +1,9 @@
+0.0.0.0:80 {
+git github.com/tuxago/triades.git ../src/triades {
+    then hugo -s /srv/src/triades --destination=/srv/public
+    hook /_webhook supersecrethoho
+}
+gzip
+log ../access.log
+root public
+}
