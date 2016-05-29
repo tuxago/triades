@@ -15,7 +15,7 @@ theme = "agency"
     # To provide some metadata for search engines feel free to add a few
     # information about you and your website.
     name = "Shani Herrmann"
-    description = "Intercultural Content Strategy "
+    description = "Triades Group Coaching"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -28,15 +28,15 @@ theme = "agency"
     # - send a dummy email yourself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-    email = "shani@theothercommunication.com"
+    email = "shani@triades.org"
 
 
     # Navigation
     [params.navigation]
 		brand = "Triades"
-        services = "Services"
-		about = "About"
-        portfolio = "Testimonials"
+        services = "Triades"
+		about = "Why"
+        portfolio = "How"
         team = "About"
         contact = "Contact"
 
@@ -45,30 +45,47 @@ theme = "agency"
     [params.hero]
         # To change the background image of the hero, replace 'header-bg.jpg' in
         # the 'static/img' folder.
-        title = "Triads"
-        subtitle = "Group Coaching in 3's"
-        buttonText = "Tell me more"
+        title = "Structured Support for Your Goals"
+        subtitle = "Fast Forward by the Power of 3"
+        buttonText = "Delete me and put Fast Forward icon"
 
 
     # Services section
     [params.services]
-        title = "Communicate Smarter and Better and Faster"
-        subtitle = "A deep understanding of who you are and who your audience is makes all the difference in the way you communicate. Adapt your words, design, and style to your  You'll move your audience. You'll move mountains.<br><br>Here's how:"
+        title = "3 Tools to Make It Real"
+        subtitle = "Because nobody succeeds alone. We succeed when others believe in us, inspire us, and when we feel confident and clear about the way forward.<br><br>Others, with their outside eye, can see what we can't see"
 		[[params.services.row]]
             [[params.services.row.list]]
                 icon = " fa-comment"
-                title = "Branding Strategy"
+                title = "Brainstorming"
                 description = "Uncover your values, your style and what makes you unique. Ditto for your audience. Then, we put the two together for a roadmap that will forever change the way you communicate. <br><br>Deliverable: A branding strategy document.<br><br><b>Intangible:</b> A sense of self that will have you communicating authentically and effectively."
             [[params.services.row.list]]
                 icon = " fa-file-text-o "
-                title = "On-Brand Content Creation"
+                title = "Action Planning"
                 description = "Get content infused with your brand.<br></br>Hire talented professionals who get it - you, your brand, your audience, and the context - to produce your corporate identity documents, online presence, advertising, sales toolkit, events, and other communication products."
 
             [[params.services.row.list]]
                 icon = "fa-commenting-o"
-                title = "Branding Quality Assurance"
+                title = "Support"
                 description = "Review of your content for brand consistency. Is your content on brand?"
-          
+			    [params.services]
+			        title = "Why 3's?"
+			        subtitle = "Because you can't cut your own hair. Because nobody does it alone. When there is an opportunity to grow, A deep understanding of who you are and who your audience is makes all the difference in the way you communicate. Adapt your words, design, and style to your  You'll move your audience. You'll move mountains.<br><br>Here's how:"
+					[[params.services.row]]
+			            [[params.services.row.list]]
+			                icon = " fa-comment"
+			                title = "Branding Strategy"
+			                description = "Uncover your values, your style and what makes you unique. Ditto for your audience. Then, we put the two together for a roadmap that will forever change the way you communicate. <br><br>Deliverable: A branding strategy document.<br><br><b>Intangible:</b> A sense of self that will have you communicating authentically and effectively."
+			            [[params.services.row.list]]
+			                icon = " fa-file-text-o "
+			                title = "On-Brand Content Creation"
+			                description = "Get content infused with your brand.<br></br>Hire talented professionals who get it - you, your brand, your audience, and the context - to produce your corporate identity documents, online presence, advertising, sales toolkit, events, and other communication products."
+
+			            [[params.services.row.list]]
+			                icon = "fa-commenting-o"
+			                title = "Branding Quality Assurance"
+			                description = "Review of your content for brand consistency. Is your content on brand?"
+				
     # Portfolio section
     [params.portfolio]
         # All projects defined in their own files. You can find example projects
