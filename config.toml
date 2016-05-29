@@ -53,7 +53,7 @@ theme = "agency"
     # Services section
     [params.services]
         title = "Team - Tool - Technique"
-        subtitle = "<b>triade</b><i> n. </i>a group of 3 people, guided by a coach to find solutions within themselves and their environment using the following tools:"
+        subtitle = "<b>triade</b><i> n. </i>a group of 3 people, guided by a coach to find solutions within themselves, their environment, and each other using the following tools:"
 		[[params.services.row]]
             [[params.services.row.list]]
                 icon = " Example of lightbulb-o fa-lightbulb-o"
