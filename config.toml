@@ -68,23 +68,6 @@ theme = "agency"
                 icon = "fa-commenting-o"
                 title = "Support"
                 description = "Review of your content for brand consistency. Is your content on brand?"
-			    [params.services]
-			        title = "Why 3's?"
-			        subtitle = "Because you can't cut your own hair. Because nobody does it alone. When there is an opportunity to grow, A deep understanding of who you are and who your audience is makes all the difference in the way you communicate. Adapt your words, design, and style to your  You'll move your audience. You'll move mountains.<br><br>Here's how:"
-					[[params.services.row]]
-			            [[params.services.row.list]]
-			                icon = " fa-comment"
-			                title = "Branding Strategy"
-			                description = "Uncover your values, your style and what makes you unique. Ditto for your audience. Then, we put the two together for a roadmap that will forever change the way you communicate. <br><br>Deliverable: A branding strategy document.<br><br><b>Intangible:</b> A sense of self that will have you communicating authentically and effectively."
-			            [[params.services.row.list]]
-			                icon = " fa-file-text-o "
-			                title = "On-Brand Content Creation"
-			                description = "Get content infused with your brand.<br></br>Hire talented professionals who get it - you, your brand, your audience, and the context - to produce your corporate identity documents, online presence, advertising, sales toolkit, events, and other communication products."
-
-			            [[params.services.row.list]]
-			                icon = "fa-commenting-o"
-			                title = "Branding Quality Assurance"
-			                description = "Review of your content for brand consistency. Is your content on brand?"
 				
     # Portfolio section
     [params.portfolio]
