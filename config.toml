@@ -52,22 +52,22 @@ theme = "agency"
 
     # Services section
     [params.services]
-        title = "3 Tools to Make It Real"
-        subtitle = "Because nobody succeeds alone. We succeed when others believe in us, inspire us, and when we feel confident and clear about the way forward.<br><br>Others, with their outside eye, can see what we can't see"
+        title = "Team - Tool - Technique"
+        subtitle = "<b>triade</b><i> n. </i>a group of 3 people, guided by a coach to find solutions within themselves and their environment using the following tools:"
 		[[params.services.row]]
             [[params.services.row.list]]
-                icon = " fa-comment"
+                icon = " Example of lightbulb-o fa-lightbulb-o"
                 title = "Brainstorming"
-                description = "Uncover your values, your style and what makes you unique. Ditto for your audience. Then, we put the two together for a roadmap that will forever change the way you communicate. <br><br>Deliverable: A branding strategy document.<br><br><b>Intangible:</b> A sense of self that will have you communicating authentically and effectively."
+                description = "Structured exercises that maximize creativity and time.<br><br>Figure out what next step you need to take to move you towards your goal."
             [[params.services.row.list]]
-                icon = " fa-file-text-o "
+                icon = "fa-list-ol"
                 title = "Action Planning"
-                description = "Get content infused with your brand.<br></br>Hire talented professionals who get it - you, your brand, your audience, and the context - to produce your corporate identity documents, online presence, advertising, sales toolkit, events, and other communication products."
+                description = "Get concrete: What needs to be on your to-do list today to make the next step a reality?<br></br>Create a prioritized action plan you feel ready to tackle."
 
             [[params.services.row.list]]
-                icon = "fa-commenting-o"
-                title = "Support"
-                description = "Review of your content for brand consistency. Is your content on brand?"
+                icon = "fa-life-ring"
+                title = "Ongoing Support"
+                description = "Check in often to keep yourself on track.<br></br>Things change where the rubber meets the road. Regular conference calls allow you to stay motivated, update your action plan, and get fresh perspective as you put your plan into action."
 				
     # Portfolio section
     [params.portfolio]
