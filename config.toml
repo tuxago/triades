@@ -53,7 +53,19 @@ theme = "agency"
     # Services section
     [params.services]
         title = "Triades: Making Big Goals Happen"
-        subtitle = "<b>triade</b><i> n. </i>a group of 3 people, guided by a coach to find solutions within themselves, their environment, and each other via the following formats:"
+        subtitle = '''
+		"<b>triade</b>“If all the tools and answers to realize your dreams lie within you, why aren’t your dreams a reality yet?
+		<br>Are you missing...?<br>Vision (Can you visualize yourself doing this? In real life?)
+        <br>Confidence (L’il ol’ you? Doing that Big Thing? Yes!)
+        <br>Focus (So much to do - where do you start?)
+        <br>Discipline (Because making dinner/seeing friends/the internet can get in the way)
+
+Triades Can Help
+
+3 people with Big Goals
+A coach who provides structure, exercises and asks the right questions
+<i> n. </i>a group of 3 people, guided by a coach to find solutions within themselves, their environment, and each other via the following formats:"
+'''
 		[[params.services.row]]
             [[params.services.row.list]]
                 icon = " Example of lightbulb-o fa-lightbulb-o"
