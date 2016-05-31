@@ -80,7 +80,22 @@ A coach who provides structure, exercises and asks the right questions
                 icon = "fa-life-ring"
                 title = "Ongoing Support"
                 description = "Put your plan into action; then check in often with your triade to keep yourself on track.<br></br>Share resources, successes and ask questions on our dedicated platform. Connect via conference call every 2 weeks to stay motivated, update your action plan, and get fresh perspectives."
+
+    # Testimonials
+    [params.testimonials]
 				
+        [[params.testimonials.list]]
+            avatar = "/img/testimonials/superu.jpg"
+            name = "Super User"
+            jobtitle = "Product designer"
+            quote = "Lorem ipsum dolor sit amet, sanctus corrumpit ei quo, eu quo meis brute, sed ut . Dicant mandamus ne duo, mazim aperiam ei eos."
+
+        [[params.testimonials.list]]
+            avatar = "/img/testimonials/superu2.jpg"
+            name = "Super User2"
+            jobtitle = "UX expert"
+            quote = "Lorem ipsum dolor sit amet, sanctus corrumpit ei quo, eu quo meis brute, sed ut possit vocibus graecis. Dicant mandamus ne duo, mazim aperiam ei eos."
+
     # Portfolio section
     [params.portfolio]
         # All projects defined in their own files. You can find example projects
