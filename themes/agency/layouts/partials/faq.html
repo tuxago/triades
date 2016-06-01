@@ -1,0 +1,34 @@
+<section id="faq">
+    <div class="container">
+        <div class="row">
+            <div class="text-center">
+                <h2 class="section-heading">FAQ</h2>
+                {{ with .Site.Params.FAQ.description }}
+                <h3 class="section-subheading text-muted" style="text-align:center">{{ . | markdownify }}</h3>
+                {{ end }}
+            </div>
+            <div class="row">
+                <div class="panel-group" id="accordionfaq" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="faq">
+                            <h2 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordionfaq" href="#collapsefaq" aria-expanded="false" aria-controls="collapsefaq">
+                                    FAQ
+                                </a>
+                            </h2>
+                            <div style="" id="collapsefaq" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq">
+                                <div class="panel-body">
+                                    {{ range .Site.Params.faq.questions }}
+                                        <p style="font-weight: bold;">{{ .q }}</p>
+                                        <p>{{ .a }}</p>
+                                    {{ end }}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

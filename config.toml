@@ -123,6 +123,20 @@ A coach who provides structure, exercises and asks the right questions
     # Call section
     [params.call]
         description = "lalala it is so fun."
+
+    # FAQ section
+    [params.faq]
+        description = "What's the FAQ?"
+
+        [[params.faq.questions]]
+            q = "What is your name?"
+            a = "Sir Arthur of Camelot, King of the Britains."
+        [[params.faq.questions]]
+            q = "What is your quest?"
+            a = "To seek the holy grail!"
+        [[params.faq.questions]]
+            q = "What is the speed of 2 swallows transporting coconuts together by a string?"
+            a = "A European swallow or an African one?"
     
     # Portfolio section
     [params.portfolio]
