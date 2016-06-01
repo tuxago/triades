@@ -96,6 +96,30 @@ A coach who provides structure, exercises and asks the right questions
             jobtitle = "UX expert"
             quote = "Lorem ipsum dolor sit amet, sanctus corrumpit ei quo, eu quo meis brute, sed ut possit vocibus graecis. Dicant mandamus ne duo, mazim aperiam ei eos."
 
+
+    # Program
+    [params.program]
+        [[params.program.sessions]]
+            sessionNumber = 1
+            title = "Brainstorming"
+            description = "blablabla"
+            weekNumber = "Week 1"
+            duration = "2h"
+
+        [[params.program.sessions]]
+            sessionNumber = 2
+            title = "Planning"
+            description = "blablabla2"
+            weekNumber = "Week 2"
+            duration = "2h"
+
+        [[params.program.sessions]]
+            sessionNumber = 3
+            title = "Follow Up"
+            description = "blablabla3"
+            weekNumber = "Week 4"
+            duration = "1h"
+
     # Portfolio section
     [params.portfolio]
         # All projects defined in their own files. You can find example projects

@@ -1,0 +1,24 @@
+<section>
+    <div class="text-center">
+        <h2 class="section-heading">Sessions</h2>
+        <div class="container">
+            {{ range .Site.Params.program.sessions}} 
+            <div class="col-md-3">
+                <div class="wrap">
+                  <div class="block-text">
+                      <h1 class="session-number">{{ .sessionNumber}}</h1>
+                    <hr/>
+                    <h1>{{ .title }}</h1>
+                    <p>{{ .description  }}</p>
+                  </div>
+                  <div class="block-date">
+                      <p class="date day">{{ .weekNumber }}</p>
+                      <p class="date time">{{ .duration }}</p>
+                    <div class="block-date-bg"><span class="percent-75 dark"></span><span class="percent-25 light"></span></div>
+                  </div>
+                </div>
+            </div>
+            {{ end }}
+    </div>
+</div>
+</section>
