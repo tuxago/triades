@@ -3,6 +3,9 @@ git github.com/tuxago/triades.git ../src/triades {
     then hugo -s /srv/src/triades --destination=/srv/public
     hook /_webhook supersecrethoho
 }
+
+mime .svg image/svg+xml
+
 gzip
 log ../access.log
 root public
