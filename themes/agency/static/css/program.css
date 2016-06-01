@@ -62,7 +62,8 @@ body {
 }
 .wrap .date {
   opacity: 1;
-  padding: 25px 30px 15px 30px;
+  padding: 0px 15px 0px 15px;
+  margin: 0 0 2px;
   -webkit-transform: translateY(0);
           transform: translateY(0);
   color: #fff;
