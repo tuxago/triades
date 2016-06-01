@@ -1,0 +1,16 @@
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="text-center">
+                <h2 class="section-heading">Call</h2>
+                <h3 class="section-subheading text-muted" style="text-align:center">{{ with .Site.Params.call.description }}{{ . | markdownify }}{{ end }}</h3>
+            </div>
+            <div class="row">
+                {{ "<!-- Calendly inline widget begin -->" | safeHTML }}
+                <div class="calendly-inline-widget" data-url="https://calendly.com/triades/15min" style="min-width:320px;height:580px;"></div>
+                <script type="text/javascript" src="https://calendly.com/assets/external/widget.js"></script>
+                {{ "<!-- Calendly inline widget end -->" | safeHTML }}
+            </div>
+        </div>
+    </div>
+</section>

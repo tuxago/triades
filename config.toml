@@ -120,6 +120,10 @@ A coach who provides structure, exercises and asks the right questions
             weekNumber = "Week 4"
             duration = "1h"
 
+    # Call section
+    [params.call]
+        description = "lalala it is so fun."
+    
     # Portfolio section
     [params.portfolio]
         # All projects defined in their own files. You can find example projects
