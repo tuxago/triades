@@ -103,41 +103,95 @@ A coach who provides structure, exercises and asks the right questions
         [[params.program.sessions]]
             sessionNumber = 1
             title = "Brainstorming"
-            description = "blablabla"
+            description = "Focus your energy"
             weekNumber = "Week 1"
             duration = "2h"
 
         [[params.program.sessions]]
             sessionNumber = 2
-            title = "Planning"
-            description = "blablabla2"
+            title = "Action Planning"
+            description = "Get concrete"
             weekNumber = "Week 2"
             duration = "2h"
-
         [[params.program.sessions]]
             sessionNumber = 3
-            title = "Follow Up"
-            description = "blablabla3"
+            title = "Check In"
+            description = "Coaching & Discussion"
             weekNumber = "Week 4"
             duration = "1h"
+        [[params.program.sessions]]
+            sessionNumber = 4
+            title = "Follow Up"
+            description = "Coaching & Discussion"
+            weekNumber = "Week 6"
+            duration = "1h"
+        [[params.program.sessions]]
+            sessionNumber = 5
+            title = "Meet Up"
+            description = "Coaching & Discussion"
+            weekNumber = "Week 8"
+            duration = "1h"
+        [[params.program.sessions]]
+            sessionNumber = 6
+            title = "Follow Up"
+            description = "Coaching & Discussion3"
+            weekNumber = "Week 10"
+            duration = "1h"
+        [[params.program.sessions]]
+            sessionNumber = 7
+            title = "Follow Up"
+            description = "Coaching & Discussion"
+            weekNumber = "Week 11"
+            duration = "1h"
+        [[params.program.sessions]]
+            sessionNumber = 8
+            title = "Cheers"
+            description = "Final celebration & look ahead"
+            weekNumber = "Week 4"
+            duration = "1h"
+	   
 
     # Call section
     [params.call]
-        description = "lalala it is so fun."
-
+        title = "A Small, Concrete Action"
+		description = '''
+you can take to move towards your goal right now
+<br> Schedule a call with Shani to see if Triads is right for you.
+'''
     # FAQ section
     [params.faq]
         description = "FAQ?"
 
         [[params.faq.questions]]
-            q = "What is your name?"
-            a = "Sir Arthur of Camelot, King of the Britains."
+            q = "Who is in my Triade?"
+            a = '''
+People who are professionally very different from you. This diversity is one of the great strengths of Triades. A concrete example explains why:
+
+If your goal is to start a community recycling program, who would you want in your Triade: someone who recycles or someone who doesn’t? A social action veteran or a social media manager? 
+
+People who are different from you can help you uncover your assumptions and see new possibilities because they move in different circles and think in different ways. Even so, similarities pop up where you least expect them. The social media manager’s wife who’s a social action veteran. The non-recycler’s husband who works at the local newspaper. 
+
+Triades is based on reciprocity: you help others with their goals and they help you. You might become close with somebody who opens crucial doors for you. Or who, at the very least, helps you see possibilities you didn’t know you had. Times 3. 
+'''
         [[params.faq.questions]]
-            q = "What is your quest?"
-            a = "To seek the holy grail!"
+            q = "Who is my coach?"
+            a = '''
+Shani Herrmann is the creator of Triades. She has a long track record of showing people they can do it! - whatever ‘it’ is. 
+
+Both analytical and empathetic, Shani has many years’ experience as a teacher, trainer and coach leading groups and creating learning through structured activity. 
+
+Her joy in life is when others find greatness in themselves. Helping them find it is her greatness.
+'''
+
         [[params.faq.questions]]
-            q = "What is the speed of 2 swallows transporting coconuts together by a string?"
-            a = "A European swallow or an African one?"
+            q = "What if Triades doesn’t work for me, or I don’t like it, or...?"
+            a = '''
+Easy: you get your money back at the end of the 3-month commitment, no questions asked, if you are not satisfied for any reason.
+
+We do ask that you attend all sessions until the end, if not for yourself, for your fellow Triade members. They count on your ideas and contributions.  A Triade with only 2 people is not a Triade!
+
+Our money-back guarantee means that you can fully commit to the process and your goal.  What would you do if you knew you could not fail?
+'''
     
     # Portfolio section
     [params.portfolio]
