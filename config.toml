@@ -54,7 +54,7 @@ theme = "agency"
     [params.services]
         title = "Structure & Support for Your Goals"
         subtitle = ''' Fast Forward By the Power of 3
-"Support: 	3 people to believe in you, a lot and often.
+Support: 	3 people to believe in you, a lot and often.
 			Accountability to your Triade
 Structure: 	8 productive sessions featuring structured exercises, 
            	An online platform to keep your Triade updated regularly on your progress forums
@@ -80,13 +80,14 @@ Fresh Perspectives: new ideas from people outside your entourage, filtered
 
     # Program
     [params.program]
+    title = "10 hours of coaching for 399€"
+    subtitle = "Satisfied or Your Money Back"
         [[params.program.sessions]]
             sessionNumber = 1
             title = "Brainstorming"
             description = "Focus your energy"
             weekNumber = "Week 1"
             duration = "2h"
-
         [[params.program.sessions]]
             sessionNumber = 2
             title = "Action Planning"
@@ -94,20 +95,18 @@ Fresh Perspectives: new ideas from people outside your entourage, filtered
             weekNumber = "Week 2"
             duration = "2h"
         [[params.program.sessions]]
-            sessionNumber = 37
+            sessionNumber = 34567
             title = "Coaching As-You-Go"
             description = "Check in, "
             weekNumber = "Weeks 4, 6, 8, 10"
-            duration = "1h"
+            duration = "1h x 4"
         [[params.program.sessions]]
             sessionNumber = 8
             title = "Cheers"
             description = "Final Celebration & Look Ahead"
             weekNumber = "Week 12"
             duration = "1h"
-    title = "10 hours of coaching for 399€"
-    subtitle = "Satisfied or Your Money Back"   
-
+    
     # Call section
     [params.call]
         title = "A Small, Concrete Action"
