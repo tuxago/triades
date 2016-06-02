@@ -273,11 +273,11 @@ Our money-back guarantee means that you can fully commit to the process and your
 
         [[params.footer.social]]
             icon = "fa-twitter"
-            link = "#"
+            link = "https://twitter.com/triadescoaching"
 
         [[params.footer.social]]
             icon = "fa-facebook"
-            link = "#"
+            link = "https://www.facebook.com/triadescoaching"
 
         [[params.footer.social]]
             icon = "fa-linkedin"
