@@ -45,42 +45,19 @@ theme = "agency"
     [params.hero]
         # To change the background image of the hero, replace 'header-bg.jpg' in
         # the 'static/img' folder.
-        title = "Structured Support for Big Goals"
-        subtitle = "Fast Forward by the Power of 3"
+        title = "Triades"
+        subtitle = "Group Coaching in 3's"
         buttonText = "Delete me and put Fast Forward icon"
 
 
     # Services section
     [params.services]
-        title = "Triades"
-        subtitle = ''' By the Power of 3
-"<b>triade</b>“If all the tools and answers to realize your dreams lie within you, why aren’t your dreams a reality yet?
-<br>Are you missing...?<br>Vision (Can you visualize yourself doing this? In real life?)
-<br>Confidence (L’il ol’ you? Doing that Big Thing? Yes!)
-<br>Focus (So much to do - where do you start?)
-<br>Discipline (Because making dinner/seeing friends/the internet can get in the way)
-
-Triades Can Help
-
-3 people with Big Goals
-A coach who provides structure, exercises and asks the right questions
-<i> n. </i>a group of 3 people, guided by a coach to find solutions within themselves, their environment, and each other via the following formats:"
+        title = "Structure & Support for Your Goals"
+        subtitle = ''' Fast Forward By the Power of 3
+"Support: people to believe in you, a lot and often.
+Structure: Tasks, exercises, forums, and deadlines to keep you moving
+Fresh Perspectives: new ideas from people outside your entourage 
 '''
-		[[params.services.row]]
-            [[params.services.row.list]]
-                icon = " Example of lightbulb-o fa-lightbulb-o"
-                title = "Brainstorming"
-                description = "Structured exercises that maximize creativity and time.<br><br>What next step will best move you towards your goal?"
-            [[params.services.row.list]]
-                icon = "fa-list-ol"
-                title = "Action Planning"
-                description = "Get concrete: Make a prioritized to-do list you feel comfortable and confident taking on.<br></br>What are you sure you can do tomorrow?"
-
-            [[params.services.row.list]]
-                icon = "fa-life-ring"
-                title = "Ongoing Support"
-                description = "Put your plan into action; then check in often with your triade to keep yourself on track.<br></br>Share resources, successes and ask questions on our dedicated platform. Connect via conference call every 2 weeks to stay motivated, update your action plan, and get fresh perspectives."
-
     # Testimonials
     [params.testimonials]
         title = "In Their Own Words"
@@ -156,7 +133,7 @@ A coach who provides structure, exercises and asks the right questions
         title = "A Small, Concrete Action"
 		description = '''
 you can take to move towards your goal right now
-<br> Schedule a call with Shani to see if Triads is right for you.
+<br> Schedule a quick 15-minute call with Shani to see if Triades is right for you.
 '''
     # FAQ section
     [params.faq]
