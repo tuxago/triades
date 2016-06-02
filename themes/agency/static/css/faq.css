@@ -1,5 +1,12 @@
 
-.question {
+.faq p {
+    color: black;
+    font-size: 18px;
+}
+
+p.question {
+    font-size: 24px;
     font-weight: bold;
     padding: 10px 0 5px 0;
 }
+

@@ -17,18 +17,14 @@
                 <li class="hidden">
                     <a href="#page-top"></a>
                 </li>
+                {{ range .Site.Params.navigation.buttons }}
+                {{ $url := .url }}
+                    {{ with .title }}
                 <li>
-                    <a class="page-scroll" href="#services">{{ with .Site.Params.navigation.services }}{{ . }}{{ end }}</a>
+                    <a class="page-scroll" href="#{{ $url }}">{{ . }}</a>
                 </li>
-                <li>
-                    <a class="page-scroll" href="#portfolio">{{ with .Site.Params.navigation.portfolio }}{{ . }}{{ end }}</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#team">{{ with .Site.Params.navigation.team }}{{ . }}{{ end }}</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#contact">{{ with .Site.Params.navigation.contact }}{{ . }}{{ end }}</a>
-                </li>
+                    {{end}}
+                {{ end }}
             </ul>
         </div>
         {{ "<!-- /.navbar-collapse -->" | safeHTML }}

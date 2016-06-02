@@ -34,12 +34,26 @@ theme = "agency"
     # Navigation
     [params.navigation]
 		brand = "Triades"
-        services = "Triades"
-		about = "Why"
-        portfolio = "How"
-        team = "About"
-        contact = "Contact"
 
+    [[params.navigation.buttons]]
+        title = "Program"
+        url = "program"
+
+    [[params.navigation.buttons]]
+        title = "FAQ"
+        url = "faq"
+
+    [[params.navigation.buttons]]
+        title = "Learn More"
+        url = "call"
+
+    [[params.navigation.buttons]]
+        title = "About"
+        url = "team"
+
+    [[params.navigation.buttons]]
+        title = "Contact"
+        url = "contact"
 
     # Hero section
     [params.hero]
@@ -95,7 +109,7 @@ Fresh Perspectives: new ideas from people outside your entourage, filtered
             weekNumber = "Week 2"
             duration = "2h"
         [[params.program.sessions]]
-            sessionNumber = 34567
+            sessionNumber = "3-4-5-6-7"
             title = "Coaching"
             description = "Advance Together"
             weekNumber = "Weeks 4, 6, 8, 10"
@@ -144,6 +158,23 @@ We do ask that you attend all sessions until the end, if not for yourself, for y
 Our money-back guarantee means that you can fully commit to the process and your goal.  What would you do if you knew you could not fail?
 '''
     
+    # FAQ section
+    [params.poll]
+        title = "Poll"
+        question = "What is the capital of Assyria?"
+
+        [[params.poll.choices]]
+            choice = "Assur"
+
+        [[params.poll.choices]]
+            choice = "Alep"
+
+        [[params.poll.choices]]
+            choice = "lololola alealet"
+
+        [[params.poll.choices]]
+            choice = "lololola alealet"
+
     # Portfolio section
     [params.portfolio]
         # All projects defined in their own files. You can find example projects

@@ -40,7 +40,7 @@ body {
   height: 2px;
 }
 .wrap .block-text h1.session-number {
-  font-size: 80px;
+  font-size: 40px;
   text-align: center;
 }
 .wrap .block-text p {
@@ -62,7 +62,7 @@ body {
 }
 .wrap .date {
   opacity: 1;
-  padding: 0px 15px 0px 15px;
+  padding: 0px 10px 0px 10px;
   margin: 0 0 2px;
   -webkit-transform: translateY(0);
           transform: translateY(0);
