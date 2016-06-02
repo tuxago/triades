@@ -83,19 +83,19 @@ A coach who provides structure, exercises and asks the right questions
 
     # Testimonials
     [params.testimonials]
-        title = "What They Say"
+        title = "In Their Own Words"
         subtitle = "Testimonials from Former Participants"
         [[params.testimonials.list]]
             avatar = "/img/testimonials/Emmanuelle.jpeg"
             name = "Emmanuelle"
             jobtitle = "Entrepreneur"
-            quote = "Triades helped me find new avenues for my business and talents I didn’t know I had.  A great tool for both professional and personal development."
+            quote = "Triades helped me find <b>new avenues for my business and talents I didn’t know I had</b>.  A great tool for both professional and personal development."
 
         [[params.testimonials.list]]
             avatar = "/img/testimonials/Sebastien Hert.jpg"
             name = "Sébastien"
             jobtitle = "Supply Chain Manager"
-            quote = "Triades transforms the skills and potential of each member into resources that help each person achieve their goal, step by step, together. is your base camp before you reach the summit."
+            quote = "Triades transforms the <b>skills and potential of each member</b> into resources that help each person achieve their goal, step by step, together.  It's your base camp before you reach the summit."
 
 
     # Program
