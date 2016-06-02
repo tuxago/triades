@@ -86,7 +86,7 @@ A coach who provides structure, exercises and asks the right questions
         title = "What They Say"
         subtitle = "Testimonials from Former Participants"
         [[params.testimonials.list]]
-            avatar = "/img/testimonials/Emmanuelle.jpg"
+            avatar = "/img/testimonials/Emmanuelle.jpeg"
             name = "Emmanuelle"
             jobtitle = "Entrepreneur"
             quote = "Triades helped me find new avenues for my business and talents I didn’t know I had.  A great tool for both professional and personal development."
