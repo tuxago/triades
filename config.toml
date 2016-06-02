@@ -52,8 +52,8 @@ theme = "agency"
 
     # Services section
     [params.services]
-        title = "Triades: Making Big Goals Happen"
-        subtitle = '''
+        title = "Triades"
+        subtitle = ''' By the Power of 3
 "<b>triade</b>“If all the tools and answers to realize your dreams lie within you, why aren’t your dreams a reality yet?
 <br>Are you missing...?<br>Vision (Can you visualize yourself doing this? In real life?)
 <br>Confidence (L’il ol’ you? Doing that Big Thing? Yes!)
@@ -86,15 +86,15 @@ A coach who provides structure, exercises and asks the right questions
 				
         [[params.testimonials.list]]
             avatar = "/img/testimonials/superu.jpg"
-            name = "Super User"
-            jobtitle = "Product designer"
-            quote = "Lorem ipsum dolor sit amet, sanctus corrumpit ei quo, eu quo meis brute, sed ut . Dicant mandamus ne duo, mazim aperiam ei eos."
+            name = "Emmanuelle"
+            jobtitle = "Entrepreneur"
+            quote = "Triades helped me find new avenues for my business and talents I didn’t know I had.  A great tool for both professional and personal development."
 
         [[params.testimonials.list]]
             avatar = "/img/testimonials/superu2.jpg"
-            name = "Super User2"
-            jobtitle = "UX expert"
-            quote = "Lorem ipsum dolor sit amet, sanctus corrumpit ei quo, eu quo meis brute, sed ut possit vocibus graecis. Dicant mandamus ne duo, mazim aperiam ei eos."
+            name = "Sébastien"
+            jobtitle = "Supply Chain Manager"
+            quote = "Triades is your base camp before you reach the summit. It helps you draft and redraft your plan; build and achieve your goal.  Triades transforms the skills and potential of each member into resources that help each person achieve their goal, step by step, together. "
 
 
     # Program
@@ -126,7 +126,7 @@ A coach who provides structure, exercises and asks the right questions
 
     # FAQ section
     [params.faq]
-        description = "What's the FAQ?"
+        description = "FAQ?"
 
         [[params.faq.questions]]
             q = "What is your name?"
