@@ -115,7 +115,7 @@ Schedule a 15-minute call with Shani to see if Triades is right for you.
 '''
     # FAQ section
     [params.faq]
-        description = ""
+        #description = ""
 
         [[params.faq.questions]]
             q = "Who is in my Triade?"
@@ -191,9 +191,11 @@ Our money-back guarantee means that you can fully commit to the process and your
     [params.team]
         title = "About"
         subtitle = ""
-        description = "Both analytical and empathetic, Shani has many years’ experience as a teacher, trainer and coach leading groups and creating learning through structured activity. 
+        description = '''
+Both analytical and empathetic, Shani has many years’ experience as a teacher, trainer and coach leading groups and creating learning through structured activity. 
 
-Her joy in life is when others find greatness in themselves. Helping them find it is her greatness. She leads Triades in English, French, Spanish and Portuguese."
+Her joy in life is when others find greatness in themselves. Helping them find it is her greatness. She leads Triades in English, French, Spanish and Portuguese.
+'''
        # All team member's pictures are stored under 'static/img/team'.
         # Replace them with your own too.
 
