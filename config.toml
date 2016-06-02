@@ -83,7 +83,8 @@ A coach who provides structure, exercises and asks the right questions
 
     # Testimonials
     [params.testimonials]
-				
+        title = "What They Say"
+        subtitle = "Testimonials from Former Participants"
         [[params.testimonials.list]]
             avatar = "/img/testimonials/superu.jpg"
             name = "Emmanuelle"
