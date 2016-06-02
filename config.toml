@@ -54,9 +54,12 @@ theme = "agency"
     [params.services]
         title = "Structure & Support for Your Goals"
         subtitle = ''' Fast Forward By the Power of 3
-"Support: people to believe in you, a lot and often.
-Structure: Tasks, exercises, forums, and deadlines to keep you moving
-Fresh Perspectives: new ideas from people outside your entourage 
+"Support: 	3 people to believe in you, a lot and often.
+			Accountability to your Triade
+Structure: 	8 productive sessions featuring structured exercises, 
+           	An online platform to keep your Triade updated regularly on your progress forums
+		   	An Action Plan and Deadlines to keep you moving
+Fresh Perspectives: new ideas from people outside your entourage, filtered 
 '''
     # Testimonials
     [params.testimonials]
@@ -91,42 +94,19 @@ Fresh Perspectives: new ideas from people outside your entourage
             weekNumber = "Week 2"
             duration = "2h"
         [[params.program.sessions]]
-            sessionNumber = 3
-            title = "Check In"
-            description = "Coaching & Discussion"
-            weekNumber = "Week 4"
-            duration = "1h"
-        [[params.program.sessions]]
-            sessionNumber = 4
-            title = "Follow Up"
-            description = "Coaching & Discussion"
-            weekNumber = "Week 6"
-            duration = "1h"
-        [[params.program.sessions]]
-            sessionNumber = 5
-            title = "Meet Up"
-            description = "Coaching & Discussion"
-            weekNumber = "Week 8"
-            duration = "1h"
-        [[params.program.sessions]]
-            sessionNumber = 6
-            title = "Follow Up"
-            description = "Coaching & Discussion3"
-            weekNumber = "Week 10"
-            duration = "1h"
-        [[params.program.sessions]]
-            sessionNumber = 7
-            title = "Follow Up"
-            description = "Coaching & Discussion"
-            weekNumber = "Week 11"
+            sessionNumber = 37
+            title = "Coaching As-You-Go"
+            description = "Check in, "
+            weekNumber = "Weeks 4, 6, 8, 10"
             duration = "1h"
         [[params.program.sessions]]
             sessionNumber = 8
             title = "Cheers"
-            description = "Final celebration & look ahead"
-            weekNumber = "Week 4"
+            description = "Final Celebration & Look Ahead"
+            weekNumber = "Week 12"
             duration = "1h"
-	   
+    title = "10 hours of coaching for 399€"
+    subtitle = "Satisfied or Your Money Back"   
 
     # Call section
     [params.call]
