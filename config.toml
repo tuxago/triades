@@ -59,26 +59,34 @@ theme = "agency"
     [params.hero]
         # To change the background image of the hero, replace 'header-bg.jpg' in
         # the 'static/img' folder.
-        title = "Triades"
-        subtitle = "Group Coaching in 3's"
+        #title = ""
+        subtitle = "Get there faster with Triades"
         buttonText = "Delete me and put Fast Forward icon"
 
 
     # Services section
     [params.services]
-        title = "A 3-Month Coaching Program to Structure & Support Your Goals"
+        title = "A 12-Week Coaching Program to Structure & Support Your Goals"
         subtitle = ''' Fast Forward By the Power of 3
-Support: 	3 people to believe in you, a lot and often.
-			Accountability to your Triade
-Structure: 	8 productive sessions featuring structured exercises, 
-           	An online platform to keep your Triade updated regularly on your progress forums
-		   	An Action Plan and Deadlines to keep you moving
-Fresh Perspectives: new ideas from people outside your entourage, filtered 
+Support: 	
+			3 people to believe in you, a lot and often.
+			A coach to ask powerful questions and make the group effective
+			
+Structure: 	
+			Accountability: Promise action to 3 people, plus yourself 
+			8 productive sessions 
+		   	Brainstorming & Idea Sorting
+			An Action Plan with deadlines to keep you moving
+           	An online platform to communicate regularly with your Triade (no email!)
+
+Fresh Perspectives: 
+			New ideas from people outside your entourage
+			Enlarge your circle: Tap into new networks
 '''
     # Testimonials
     [params.testimonials]
         title = "In Their Own Words"
-        subtitle = "Testimonials from Former Participants"
+        subtitle = "What Former Participants Say About Triades"
         [[params.testimonials.list]]
             avatar = "/img/testimonials/Emmanuelle.jpeg"
             name = "Emmanuelle"
@@ -117,7 +125,7 @@ Fresh Perspectives: new ideas from people outside your entourage, filtered
         [[params.program.sessions]]
             sessionNumber = 8
             title = "Look Ahead"
-            description = "Inventory & Next Steps"
+            description = "Where are We Now? What Next?"
             weekNumber = "Week 12"
             duration = "2h"
     
@@ -134,7 +142,7 @@ Schedule a 15-minute call with Shani to see if Triades is right for you.
         [[params.faq.questions]]
             q = "Who is in my Triade?"
             a = '''
-People who are professionally very different from you. This diversity is one of the great strengths of Triades. A concrete example explains why:
+People who are professionally very different from you. This diversity is one of the great strengths of Triades. A concrete example explains why:  
 
 If your goal is to start a community recycling program, who would you want in your Triade: someone who recycles or someone who doesn’t? A social action veteran or a social media manager? 
 
@@ -145,35 +153,35 @@ Triades is based on reciprocity: you help others with their goals and they help 
         [[params.faq.questions]]
             q = "Who is my coach?"
             a = '''
-Shani Herrmann is the creator of Triades. She has a long track record of showing people they can do it! - whatever ‘it’ is. More information in the [About](#about) section.
+Shani Herrmann is the creator of Triades. She has a long track record of showing people they can do it! - whatever ‘it’ is. Find out more about her in the [About](#about) section.
 '''
 
         [[params.faq.questions]]
             q = "What if Triades doesn’t work for me, or I don’t like it, or...?"
             a = '''
-Easy: you get your money back at the end of the 3-month commitment, no questions asked, if you are not satisfied for any reason.
+Easy: If you are not satisfied for any reason, you get your money back at the end of the 3-month commitment, no questions asked, .
 
 We do ask that you attend all sessions until the end, if not for yourself, for your fellow Triade members. They count on your ideas and contributions.  A Triade with only 2 people is not a Triade!
 
-Our money-back guarantee means that you can fully commit to the process and your goal.  What would you do if you knew you could not fail?
+Our money-back guarantee means you can fully commit to the process and your goal.  What would you do if you knew you could not fail?
 '''
     
     # FAQ section
     [params.poll]
         title = "Poll"
-        question = "What is the capital of Assyria?"
+        question = "What professional goal do you dream about?"
 
         [[params.poll.choices]]
-            choice = "Assur"
+            choice = "Changing jobs"
 
         [[params.poll.choices]]
-            choice = "Alep"
+            choice = "Starting a business or organization"
 
         [[params.poll.choices]]
-            choice = "lololola alealet"
+            choice = "Growing my business or organization"
 
         [[params.poll.choices]]
-            choice = "lololola alealet"
+            choice = "Something else..."
 
     # Portfolio section
     [params.portfolio]
@@ -195,7 +203,7 @@ Our money-back guarantee means that you can fully commit to the process and your
     [params.about]
         title = "Why Shani?"
         subtitle = ""
-        endpoint = "Your<br>Project"
+        endpoint = "Your<br>Goal"
 
         # The events will be listed from the top to the bottom.
         # All images are stored under 'static/img/about'.
@@ -204,25 +212,25 @@ Our money-back guarantee means that you can fully commit to the process and your
             img = "right brain left brain.jpg"
             date = ""
             title = "Analysis & Intuition"
-            description = "Right brain or left brain? Shani is both. Sensitive to nuances in design, language, and emotion. Logical and results-oriented. You get the best of both worlds."
+            description = "Right brain or left brain? Shani is both. Sensitive to nuances in language and emotion. Logical and results-oriented. You get the best of both worlds."
 
         [[params.about.events]]
             img = "globe 200.jpg"
             date = ""
-            title = "Extensive Cultural Experience"
+            title = "Has Been Around...The World"
             description = "Shani has lived in North and South America, Europe and the Middle East, has travelled extensively and has worked with people from many different disciplines all over the world. She'll figure out your brand's culture - and the culture of the context you operate in - in no time."
 
         [[params.about.events]]
             img = "montessori cube 200.jpg"
             date = ""
             title = "A Co-Creative Approach"
-            description = "Shani's approach to working with clients has its roots in Montessori - Shani's family business. It's about working together to find solutions in a positive, relaxed environment where creativity flows."
+            description = "Shani's approach to working with clients has its roots in Montessori - Shani's family business. It's about working together to find solutions in a positive environment where creativity flows."
 
     # Team section
     [params.team]
         title = "About"
         subtitle = ""
-        description = "Both analytical and empathetic, Shani has many years’ experience as a teacher, trainer and coach leading groups and creating learning through structured activity. Her joy in life is when others find greatness in themselves. Helping them find it is her greatness. She leads Triades in English, French, Spanish and Portuguese."
+        description = "Both analytical and empathetic, Shani has many years’ experience as a teacher, trainer and coach creating learning through structured activity. Her joy in life is when others find greatness in themselves. Helping them find it is her greatness. She leads Triades in English, French, Spanish and Portuguese."
        # All team member's pictures are stored under 'static/img/team'.
         # Replace them with your own too.
 
