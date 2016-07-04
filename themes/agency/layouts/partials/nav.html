@@ -21,7 +21,7 @@
                 {{ $url := .url }}
                     {{ with .title }}
                 <li>
-                    <a class="page-scroll" href="#{{ $url }}">{{ . }}</a>
+                    <a class="page-scroll" href="{{ $url }}">{{ . }}</a>
                 </li>
                     {{end}}
                 {{ end }}

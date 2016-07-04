@@ -37,23 +37,27 @@ theme = "agency"
 
     [[params.navigation.buttons]]
         title = "Program"
-        url = "program"
+        url = "#program"
 
     [[params.navigation.buttons]]
         title = "FAQ"
-        url = "faq"
+        url = "#faq"
 
     [[params.navigation.buttons]]
         title = "Learn More"
-        url = "call"
+        url = "#call"
 
     [[params.navigation.buttons]]
         title = "About"
-        url = "team"
+        url = "#team"
+		
+    [[params.navigation.buttons]]
+        title = "Blog"
+        url = "/blog/"
 
     [[params.navigation.buttons]]
         title = "Contact"
-        url = "contact"
+        url = "#contact"
 
     # Hero section
     [params.hero]
@@ -66,22 +70,14 @@ theme = "agency"
 
     # Services section
     [params.services]
-        title = "A 12-Week Coaching Program to Structure & Support Your Goals"
-        subtitle = ''' Fast Forward By the Power of 3
-Support: 	
-			3 people to believe in you, a lot and often.
-			A coach to ask powerful questions and make the group effective
-			
-Structure: 	
-			Accountability: Promise action to 3 people, plus yourself 
-			8 productive sessions 
-		   	Brainstorming & Idea Sorting
-			An Action Plan with deadlines to keep you moving
-           	An online platform to communicate regularly with your Triade (no email!)
+        title = "Small Group Coaching"
+        subtitle = ''' Structure & Support For Your Goals
+Triades uses proven methods to help entrepreneurs, career changers and expatriates reach their goals. Together.
 
-Fresh Perspectives: 
-			New ideas from people outside your entourage
-			Enlarge your circle: Tap into new networks
+Triades is currently looking for Beta Testers. Help Triades by letting Triades help you!
+Testers get a short collection of exercises to help them zero-in on their goals, and talk about their results in a short 15-minute phone call with Triades coach Shani Herrmann. 
+Interested? Send in the contact form with your name, phone number, and the words Beta Tester in the message.
+
 '''
     # Testimonials
     [params.testimonials]
@@ -102,38 +98,62 @@ Fresh Perspectives:
 
     # Program
     [params.program]
-    title = "10 hours of coaching for 399€"
-    subtitle = "Satisfied or Your Money Back"
+    title = "Building Blocks"
+    subtitle = "of the Triades Program"
         [[params.program.sessions]]
             sessionNumber = 1
-            title = "Brainstorming"
-            description = "Focus Your Efforts"
-            weekNumber = "Week 1"
-            duration = "2h"
+            title = "I am"
+            description = "What Makes You You"
+            weekNumber = ""
+            duration = ""
         [[params.program.sessions]]
             sessionNumber = 2
-            title = "Action Planning"
-            description = "Get Concrete"
-            weekNumber = "Week 2"
-            duration = "2h"
+            title = "What I Need"
+            description = "Essential Elements"
+            weekNumber = ""
+            duration = ""
         [[params.program.sessions]]
-            sessionNumber = "3-4-5-6-7"
-            title = "Coaching"
-            description = "Advance Together"
-            weekNumber = "Weeks 4, 6, 8, 10"
-            duration = "1h x 4"
+            sessionNumber = 3
+            title = "What I Want"
+            description = "The Ideal"
+            weekNumber = ""
+            duration = ""
         [[params.program.sessions]]
-            sessionNumber = 8
-            title = "Look Ahead"
-            description = "Where are We Now? What Next?"
-            weekNumber = "Week 12"
-            duration = "2h"
+            sessionNumber = 4
+            title = "My Goal"
+            description = "Doable & Real"
+            weekNumber = ""
+            duration = ""
+        [[params.program.sessions]]
+            sessionNumber = 5
+            title = "How to Get There"
+            description = "A Roadmap"
+            weekNumber = ""
+            duration = ""
+        [[params.program.sessions]]
+            sessionNumber = 6
+            title = "A Little Help"
+            description = "from friends and well-wishers"
+            weekNumber = ""
+            duration = ""
+        [[params.program.sessions]]
+            sessionNumber = 7
+            title = "Scheduling"
+            description = "Real Progress in Real Time"
+            weekNumber = ""
+            duration = ""
+       [[params.program.sessions]]
+           sessionNumber = 8
+           title = "For Bad Days"
+           description = "How to Handle Bumps in the Road"
+           weekNumber = ""
+           duration = ""
     
     # Call section
     [params.call]
         title = "A Small, Concrete Action"
-		description = '''
-Schedule a 15-minute call with Shani to see if Triades is right for you.
+		description = ''' Learn more about Triades. 
+Call Shani Now at 06 41 88 23 40. Or, pick a time below and she'll call you back.
 '''
     # FAQ section
     [params.faq]
@@ -142,28 +162,13 @@ Schedule a 15-minute call with Shani to see if Triades is right for you.
         [[params.faq.questions]]
             q = "Who is in my Triade?"
             a = '''
-People who are professionally very different from you. This diversity is one of the great strengths of Triades. A concrete example explains why:  
-
-If your goal is to start a community recycling program, who would you want in your Triade: someone who recycles or someone who doesn’t? A social action veteran or a social media manager? 
-
-People who are different from you can help you uncover your assumptions and see new possibilities because they move in different circles and think in different ways. Still, similarities pop up where you least expect them. The social media manager’s wife who’s a social action veteran. The non-recycler’s husband who works at the local newspaper. 
-
-Triades is based on reciprocity: you help others with their goals and they help you. You might become close with somebody who opens crucial doors for you. Or who, at the very least, helps you see possibilities you didn’t know you had. Times 3. 
+People who have the same goal as you - entrepreneurs if you're an entrepreneur. Career changers if you want to do something new professionally. Other expatriates who want to make the most of a new place. ar
 '''
         [[params.faq.questions]]
             q = "Who is my coach?"
             a = '''
-Shani Herrmann is the creator of Triades. She has a long track record of showing people they can do it! - whatever ‘it’ is. Find out more about her in the [About](#about) section.
+Shani Herrmann is the creator of Triades. She has a long track record of showing people they can do it! - whatever ‘it’ is. Find out more about her in the About section.
 '''
-
-        [[params.faq.questions]]
-            q = "What if Triades doesn’t work for me, or I don’t like it, or...?"
-            a = '''
-Easy: If you are not satisfied for any reason, you get your money back at the end of the 3-month commitment, no questions asked, .
-
-We do ask that you attend all sessions until the end, if not for yourself, for your fellow Triade members. They count on your ideas and contributions.  A Triade with only 2 people is not a Triade!
-
-Our money-back guarantee means you can fully commit to the process and your goal.  What would you do if you knew you could not fail?
 '''
     
     # FAQ section
@@ -230,7 +235,7 @@ Our money-back guarantee means you can fully commit to the process and your goal
     [params.team]
         title = "About"
         subtitle = ""
-        description = "Both analytical and empathetic, Shani has many years’ experience as a teacher, trainer and coach creating learning through structured activity. Her joy in life is when others find greatness in themselves. Helping them find it is her greatness. She leads Triades in English, French, Spanish and Portuguese."
+        description = "Shani has grappled with the problems of being an entrepreneur, a career changer and an expatriate because she is all of those things. She has been preparing to lead Triades her whole life - as a teacher, trainer and coach creating learning through structured activity, helping people achieve. Her joy in life is when others find greatness in themselves. Helping them find it is her greatness. She leads Triades in English, French, Spanish and Portuguese."
        # All team member's pictures are stored under 'static/img/team'.
         # Replace them with your own too.
 
