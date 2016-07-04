@@ -71,7 +71,8 @@ theme = "agency"
     # Services section
     [params.services]
         title = "Small Group Coaching"
-        subtitle = ''' Structure & Support For Your Goals
+        subtitle = '''
+Structure & Support For Your Goals
 Triades uses proven methods to help entrepreneurs, career changers and expatriates reach their goals. Together.
 
 Triades is currently looking for Beta Testers. Help Triades by letting Triades help you!
@@ -152,7 +153,8 @@ Interested? Send in the contact form with your name, phone number, and the words
     # Call section
     [params.call]
         title = "A Small, Concrete Action"
-		description = ''' Learn more about Triades. 
+		description = '''
+Learn more about Triades. 
 Call Shani Now at 06 41 88 23 40. Or, pick a time below and she'll call you back.
 '''
     # FAQ section
