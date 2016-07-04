@@ -70,9 +70,8 @@ theme = "agency"
 
     # Services section
     [params.services]
-        title = "Small Group Coaching"
-        subtitle = '''
-Structure & Support For Your Goals
+        title = "Structure & Support For Your Goals in a Small Group Setting"
+        subtitle = ''' 
 Triades uses proven methods to help entrepreneurs, career changers and expatriates reach their goals. Together.
 
 Triades is currently looking for Beta Testers. Help Triades by letting Triades help you!
@@ -164,7 +163,7 @@ Call Shani Now at 06 41 88 23 40. Or, pick a time below and she'll call you back
         [[params.faq.questions]]
             q = "Who is in my Triade?"
             a = '''
-People who have the same goal as you - entrepreneurs if you're an entrepreneur. Career changers if you want to do something new professionally. Other expatriates who want to make the most of a new place. ar
+People who have the same goal as you - entrepreneurs if you're an entrepreneur, career changers if you want to do something new professionally, or other expatriates who want to make the most of a new place. Which one are you?
 '''
         [[params.faq.questions]]
             q = "Who is my coach?"
