@@ -2,6 +2,7 @@ baseurl = "https://triades.org/"
 languageCode = "en-us"
 title = "Triades"
 theme = "agency"
+googleAnalytics = "UA-80319456-1"
 
 [params]
 
